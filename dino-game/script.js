@@ -1,5 +1,6 @@
 const dino = document.querySelector('.dino');
 const background = document.querySelector('.background');
+const Score = document.querySelector('.Score')
 let isJumping = false;
 let position = 0;
 
@@ -49,6 +50,10 @@ function createCactus() {
         if (cactusPosition < -60) {
             clearInterval(leftInterval);
             background.removeChild(cactus);
+            var pontos = 0;
+            pontos++;
+            Score.textContent = pontos;
+            console.log(pontos);
         } else if (cactusPosition > 0 && cactusPosition < 60 && position < 60) {
             //Game Over
             clearInterval(leftInterval);
