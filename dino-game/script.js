@@ -3,6 +3,7 @@ const background = document.querySelector('.background');
 const Score = document.querySelector('.Score')
 let isJumping = false;
 let position = 0;
+var pontos = 0;
 
 function handleKeyUp(event) {
     if (event.keyCode === 32) {
@@ -50,10 +51,8 @@ function createCactus() {
         if (cactusPosition < -60) {
             clearInterval(leftInterval);
             background.removeChild(cactus);
-            var pontos = 0;
             pontos++;
-            Score.textContent = pontos;
-            console.log(pontos);
+            Score.textContent = 'Pontos: ' + pontos;
         } else if (cactusPosition > 0 && cactusPosition < 60 && position < 60) {
             //Game Over
             clearInterval(leftInterval);
@@ -65,7 +64,12 @@ function createCactus() {
     }, 20);
 
     setTimeout(createCactus, randomTime);
+
+    var numbers = [1, 4, 9];
+    var roots = numbers.map(Math.sqrt);
+    console.log(roots)
+// roots é [1, 2, 3], numbers ainda é [1, 4, 9]
 }
 
 createCactus();
-document.addEventListener('keyup', handleKeyUp);
+document.addEventListener("keydown", handleKeyUp);
