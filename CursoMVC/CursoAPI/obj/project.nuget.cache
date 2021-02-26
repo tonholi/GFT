@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "eNLyDzUux9eI1bmgDHVKJ8k4JxwzU3a/AIZZsikJoEZWs80H0HZQSIgrzVakV7f4AUkVsTuhlwd8UTQTaCnFHw==",
+  "success": true,
+  "projectFilePath": "E:\\Projetos\\CursoMVC\\CursoAPI\\CursoAPI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Luis Gustavo\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Luis Gustavo\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512"
+  ],
+  "logs": []
+}

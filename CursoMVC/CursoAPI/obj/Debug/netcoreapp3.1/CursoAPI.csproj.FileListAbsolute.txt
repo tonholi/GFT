@@ -1,0 +1,5 @@
+E:\Projetos\CursoMVC\CursoAPI\obj\Debug\netcoreapp3.1\CursoAPI.csprojAssemblyReference.cache
+E:\Projetos\CursoMVC\CursoAPI\obj\Debug\netcoreapp3.1\CursoAPI.AssemblyInfoInputs.cache
+E:\Projetos\CursoMVC\CursoAPI\obj\Debug\netcoreapp3.1\CursoAPI.AssemblyInfo.cs
+E:\Projetos\CursoMVC\CursoAPI\obj\Debug\netcoreapp3.1\CursoAPI.csproj.CoreCompileInputs.cache
+E:\Projetos\CursoMVC\CursoAPI\obj\Debug\netcoreapp3.1\CursoAPI.MvcApplicationPartsAssemblyInfo.cache
